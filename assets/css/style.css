@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* -------------------------- */
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'Source Sans Pro',sans-serif;
+    background-color: #17b0be;
+    position: relative;
+}
+
+.app {
+    margin-top: 100px;
+    border: 10px inset #3a3a3c;
+    width : 40%;
+    min-height: 700px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.fa-archway{
+    position: absolute;
+    top: 50px;
+    left: 47%;
+    font-size: 120px;
+}
+
+.app-heading {
+    margin-top: 12px;
+    font-size: 35px;
+    color: #3c3c3c;
+    font-weight: bold;
+    text-shadow: 2px 2px #ff0000;
+    cursor: pointer;
+    margin-top: 72px;
+}
+
+.task-box {
+    margin-top: 50px;
+}
+
+.task-list h4 {
+    line-height: 50px;
+}
+
+.task-item {
+    margin: 50px 0px;
+    color: #3c3c3c;
+    font-size: 25px;
+    font-weight: bold;
+    transition: all 0.3s linear;
+    position: relative;
+}
+
+
+.checkbox-inp{
+    float: left;
+    margin-left: 48px;
+    width: 40px;
+    height: 40px;
+}
+
+.deleteBtn {
+    border: none;
+    border-bottom: 2px solid #3a3a3c;
+    cursor:pointer;
+    font-size: 20px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 24px;
+}
+
+.fa-trash {
+    margin-left: 12px;
+}
+
+.handleBox input {
+    width: 250px;
+    height: 30px;
+    margin-bottom: 24px;
+    border-radius: 2em;
+    padding: 12px 24px;
+}
+
+#create {
+    width: 200px;
+    height: 50px;
+    border-radius: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    font-size : 20px;
+    border : 5px solid #3c3c3c;
+    margin: 48px 0;
+}
+
+#create:hover {
+    opacity: 0.6;
+}
+
+.active {
+        text-decoration: line-through 3px #3a3a3c;
+        color: #383a447a;
+}
