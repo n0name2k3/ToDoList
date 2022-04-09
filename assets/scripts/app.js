@@ -73,6 +73,8 @@ function createTasks(data,callback)
             response.json();
         })
         .then(callback);
+    
+    document.location.reload();
 }
 
 //--------------------Check Status
